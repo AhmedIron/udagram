@@ -18,7 +18,6 @@ jobs:
       # Use root level package.json to install dependencies in the frontend app
       - run:
           name: Install Front-End Dependencies
-          working_directory: /udagram/udagram-frontend
           command: |
             echo "NODE --version" 
             echo $(node --version)
