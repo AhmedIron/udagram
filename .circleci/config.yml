@@ -44,7 +44,7 @@ jobs:
             npm run api:build
       - run:
           name: .env
-          command: |
+          command: >
             cd udagram/udagram-api &&
             eb setenv AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
             AWS_BUCKET=$AWS_BUCKET
