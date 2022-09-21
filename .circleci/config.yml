@@ -45,7 +45,7 @@ jobs:
       - run:
           name: .env
           command: >
-            cd udagram/udagram-api &&
+            cd udagram &&
             eb setenv AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
             AWS_BUCKET=$AWS_BUCKET
             AWS_DEFAULT_REGION=$AWS_DEFAULT_REGION
